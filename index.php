@@ -1,6 +1,7 @@
 <?php
 
 class Movie {
+    
 public $title;
 public $year;
 public $original_language;
@@ -27,12 +28,10 @@ function __construct($_title,$_year, $_original_language, $_genre) {
 };
 
 
-
-
 $movieCatalogue = [
 $theBatman = new Movie("The Batman",2022,"Inglese","Action"),
 $it= new Movie("It",1990,"Inglese","Horror"),
-$interstellar = new Movie("It",1990,"Inglese","Horror")];
+$interstellar = new Movie("Interstellar",2014,"Inglese","Sci-fi")];
 
 
 
